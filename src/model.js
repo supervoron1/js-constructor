@@ -1,10 +1,24 @@
 export const model = [
-  {type: 'title', value: 'Test title', options: {}},
-  {type: 'text', value: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi', options: {}},
-  {type: 'textColumns', value: [
+  {
+    type: 'title', value: 'Test title', options: {
+      tag: 'h2',
+      styles: 'background: darkred; color: #fff; text-align: center;'
+    }
+  },
+  {
+    type: 'text', value: 'Lorem ipsum dolor sit amet, adipisicing elit. Animi', options: {
+      styles: 'background: darkblue; color: yellow;'
+    }
+  },
+  {
+    type: 'textColumns', value: [
       '1st text',
       '2nd text',
       '3rd text',
       '4th text',
-    ], options: {}}
+      '5th text',
+    ], options: {
+      styles: 'padding: 1rem;'
+    }
+  }
 ]
