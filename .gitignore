@@ -1,0 +1,7 @@
+.idea
+.node_modules
+.dist
+
+# Project exclude paths
+/dist/
+/node_modules/
